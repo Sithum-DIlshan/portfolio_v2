@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function NavBar(props) {
     return (
-        <Navbar sticky='top'>
+        <Navbar sticky='top' expand="lg">
             <Container>
                 <Navbar.Brand href="#home" >Sithum Dilshan</Navbar.Brand>
                 <Nav className="me-auto m-lg-1 m-sm-2" >

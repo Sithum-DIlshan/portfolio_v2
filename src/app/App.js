@@ -9,12 +9,14 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import NavBar from "../components/NavBar";
 import Home from '../components/Home';
+import Aboutme from '../components/Aboutme';
 
 function App() {
   return (
     <>
       <NavBar />
       <Home />
+      <Aboutme/>
     </>
   );
 }
